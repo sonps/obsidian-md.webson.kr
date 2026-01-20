@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "md.webson.kr Quartz 4",
+    pageTitle: "Quartz 4",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "ko-KR",
+    locale: "en-US",
     baseUrl: "md.webson.kr",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
